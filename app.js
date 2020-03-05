@@ -12,12 +12,19 @@ let nav = document.querySelector('.nav')
 //dom section
 let lireSection2 = document.querySelector('.lien_suite_2')
 let cadreSec2 = document.querySelector('.cadre_sec_2')
+let lienLire2 = document.querySelector('.lien_lire_2')
+
 let lireSection3 = document.querySelector('.lien_suite_3')
 let cadreSec3 = document.querySelector('.cadre_sec_3')
+let lienLire3 = document.querySelector('.lien_lire_3')
+
 let lireSection4 = document.querySelector('.lien_suite_4')
 let cadreSec4 = document.querySelector('.cadre_sec_4')
+let lienLire4 = document.querySelector('.lien_lire_4')
+
 let lireSection5 = document.querySelector('.lien_suite_5')
 let cadreSec5 = document.querySelector('.cadre_sec_5')
+let lienLire5 = document.querySelector('.lien_lire_5')
 
 
 // click btn menu mobile
@@ -60,11 +67,11 @@ lireSection2.onclick = () => {
 
     if (cadreSec2.classList[1] == "cadre_sec_2_active") {
 
-        lireSection2.textContent = "Fermer"
+        lienLire2.textContent = "Fermer"
 
     }else {
 
-        lireSection2.textContent = "Lire la suite..."
+        lienLire2.textContent = "Lire la suite..."
 
     }
 
@@ -77,11 +84,11 @@ lireSection3.onclick = () => {
 
     if (cadreSec3.classList[1] == "cadre_sec_3_active") {
 
-        lireSection3.textContent = "Fermer"
+        lienLire3.textContent = "Fermer"
 
     }else {
 
-        lireSection3.textContent = "Lire la suite..."
+        lienLire3.textContent = "Lire la suite..."
 
     }
 
@@ -94,11 +101,11 @@ lireSection4.onclick = () => {
 
     if (cadreSec4.classList[1] == "cadre_sec_4_active") {
 
-        lireSection4.textContent = "Fermer"
+        lienLire4.textContent = "Fermer"
 
     }else {
 
-        lireSection4.textContent = "Lire la suite..."
+        lienLire4.textContent = "Lire la suite..."
 
     }
 
@@ -111,12 +118,14 @@ lireSection5.onclick = () => {
 
     if (cadreSec5.classList[1] == "cadre_sec_5_active") {
 
-        lireSection5.textContent = "Fermer"
+        lienLire5.textContent = "Fermer"
 
     }else {
 
-        lireSection5.textContent = "Lire la suite..."
+        lienLire5.textContent = "Lire la suite..."
 
     }
 
 }
+
+

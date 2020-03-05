@@ -343,6 +343,11 @@ body{
     padding: 10px;
 }
 
+.lien_lire_2{
+    text-decoration: none;
+    color: #81ecec;
+}
+
 /***************************/
 
 /************************* sec 3*/
@@ -392,6 +397,11 @@ body{
     color: #81ecec;
     display: block;
     padding: 10px;
+}
+
+.lien_lire_3{
+    text-decoration: none;
+    color: #81ecec;
 }
 
 /***************************/
@@ -451,6 +461,11 @@ body{
     padding: 10px;
 }
 
+.lien_lire_4{
+    text-decoration: none;
+    color: #81ecec;
+}
+
 /***************************/
 
 /************************* sec 5*/
@@ -497,12 +512,17 @@ body{
     padding: 10px;
 }
 
+.lien_lire_5{
+    text-decoration: none;
+    color: #81ecec;
+}
+
 /***************************/
 
 /************************* sec 6*/
 
 .sec_6{
-    background-color: #3F51B5;
+    background-color: #E91E63;
     padding: 50px 18px 50px 18px;
 }
 
