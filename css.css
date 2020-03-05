@@ -297,7 +297,8 @@ body{
 
 .sec_2{
     background-color: #B53471;
-    padding: 50px 18px 50px 18px;
+    padding: 50px 18px 60px 18px;
+    
 }
 
 .cadre_sec_2{
@@ -305,6 +306,14 @@ body{
     background-color: #3F51B5;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.6),
     -1px 2px 20px rgba(0, 0, 0, 0) inset;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.cadre_sec_2_active{
+    height: fit-content;
+    overflow: visible;
 }
 
 .cadre_sec_2 h3{
@@ -326,20 +335,35 @@ body{
     font-weight: bold;
 }
 
+.lien_suite_2{
+    float: right;
+    cursor: pointer;
+    color: #81ecec;
+    display: block;
+    padding: 10px;
+}
+
 /***************************/
 
 /************************* sec 3*/
 
 .sec_3{
-    background-color: #3F51B5;
+    background-color: #B53471;
     padding: 50px 18px 50px 18px;
 }
 
 .cadre_sec_3{
     padding: 15px;
-    background-color: #B53471;
+    background-color: #3F51B5;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.6),
     -1px 2px 20px rgba(0, 0, 0, 0) inset;
+    height: 400px;
+    overflow: hidden;
+}
+
+.cadre_sec_3_active{
+    height: fit-content;
+    overflow: visible;
 }
 
 .cadre_sec_3 h3{
@@ -362,20 +386,35 @@ body{
     text-decoration: none;
 }
 
+.lien_suite_3{
+    float: right;
+    cursor: pointer;
+    color: #81ecec;
+    display: block;
+    padding: 10px;
+}
+
 /***************************/
 
 /************************* sec 4*/
 
 .sec_4{
-    background-color: #B53471;
+    background-color: #3F51B5;
     padding: 50px 18px 50px 18px;
 }
 
 .cadre_sec_4{
     padding: 15px;
-    background-color: #3F51B5;
+    background-color: #B53471;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.6),
     -1px 2px 20px rgba(0, 0, 0, 0) inset;
+    height: 400px;
+    overflow: hidden;
+}
+
+.cadre_sec_4_active{
+    height: fit-content;
+    overflow: visible;
 }
 
 .cadre_sec_4 h3{
@@ -404,6 +443,14 @@ body{
     text-decoration: none;
 }
 
+.lien_suite_4{
+    float: right;
+    cursor: pointer;
+    color: #81ecec;
+    display: block;
+    padding: 10px;
+}
+
 /***************************/
 
 /************************* sec 5*/
@@ -418,6 +465,13 @@ body{
     background-color: #B53471;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.6),
     -1px 2px 20px rgba(0, 0, 0, 0) inset;
+    height: 400px;
+    overflow: hidden;
+}
+
+.cadre_sec_5_active{
+    height: fit-content;
+    overflow: visible;
 }
 
 .cadre_sec_5 h3{
@@ -435,18 +489,26 @@ body{
     padding: 15px 0px 0px 0px;
 }
 
+.lien_suite_5{
+    float: right;
+    cursor: pointer;
+    color: #81ecec;
+    display: block;
+    padding: 10px;
+}
+
 /***************************/
 
 /************************* sec 6*/
 
 .sec_6{
-    background-color: #B53471;
+    background-color: #3F51B5;
     padding: 50px 18px 50px 18px;
 }
 
 .cadre_sec_6{
     padding: 15px;
-    background-color: #3F51B5;
+    background-color: #673AB7;
     box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.6),
     -1px 2px 20px rgba(0, 0, 0, 0) inset;
 }
