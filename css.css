@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;}
+
 /*color*/
 /*#F44336*/
 /*rouge*/
@@ -142,7 +145,6 @@
 /************************* cadre texte*/
 
 .cadre_texte_header {
-    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     padding-top: 150px;
 }
@@ -186,7 +188,6 @@
 }
 
 .nav_ul{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
     width: 100%;
@@ -240,7 +241,6 @@
 
 .sec_1{
     background-color: #3F51B5;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 50px 18px 50px 18px;
 }
 
@@ -293,7 +293,6 @@
 
 .sec_2{
     background-color: #B53471;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 50px 18px 50px 18px;
 }
 
@@ -329,7 +328,6 @@
 
 .sec_3{
     background-color: #673AB7;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 50px 18px 50px 18px;
 }
 
@@ -362,5 +360,81 @@
 
 /***************************/
 
+/************************* sec 4*/
+
+.sec_4{
+    background-color: #3F51B5;
+    padding: 50px 18px 50px 18px;
+}
+
+.cadre_sec_4{
+    padding: 15px;
+    background-color: #81ecec;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.9),
+    -1px 2px 20px rgba(0, 0, 0, 0) inset;
+}
+
+.cadre_sec_4 h3{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0px 15px 0px;
+}
+
+.cadre_sec_4 h3 a{
+    color: #E91E63;
+    text-decoration: none;
+}
+
+.cadre_sec_4 p{
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0px 0px 0px;
+}
+
+.cadre_sec_4 p a{
+    color: #E91E63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/***************************/
+
+/************************* sec 5*/
+
+.sec_5{
+    background-color: #673AB7;
+    padding: 50px 18px 50px 18px;
+}
+
+.cadre_sec_5{
+    padding: 15px;
+    background-color: #E91E63;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.9),
+    -1px 2px 20px rgba(0, 0, 0, 0) inset;
+}
+
+.cadre_sec_5 h3{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0px 15px 0px;
+}
+
+.cadre_sec_5 p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0px 0px 0px;
+}
+
+/***************************/
+
+.ita{
+    font-style: italic;
+}
 
 /***************************************************************************/
