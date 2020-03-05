@@ -433,6 +433,45 @@ body{
 
 /***************************/
 
+/************************* sec 6*/
+
+.sec_6{
+    background-color: #3F51B5;
+    padding: 50px 18px 50px 18px;
+}
+
+.cadre_sec_6{
+    padding: 15px;
+    background-color: #673AB7;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.9),
+    -1px 2px 20px rgba(0, 0, 0, 0) inset;
+}
+
+.cadre_sec_6 h3{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0px 15px 0px;
+}
+
+.cadre_sec_6 p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0px 0px 0px;
+}
+
+.cadre_sec_6 p a{
+    color: #81ecec;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/***************************/
+
+
+
 .ita{
     font-style: italic;
 }
