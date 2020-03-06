@@ -305,6 +305,14 @@
 
 .cadre_sec_1 {
     padding: 50px;
+    opacity: 0;
+    transition-duration: 1.8s;
+}
+
+.cadre_sec_1_active {
+    padding: 50px;
+    opacity: 1;
+    transition-duration: 1.8s;
 }
 
 .cadre_sec_1 h3 {
@@ -369,9 +377,18 @@
 }
 
 .cadre_sec_2 {
+    margin-left: -3500px;
+    width: 0px;
+    transition-duration: 1s;
     padding: 50px;
-    height: 400px;
+    height: 388px;
     overflow: hidden;
+}
+
+.cadre_sec_2_active_scroll {
+    width: 100%;
+    margin-left: 0px;
+    transition-duration: 1s;
 }
 
 
@@ -427,7 +444,7 @@
 
 .cadre_sec_3 {
     padding: 50px;
-    height: 400px;
+    height: 398px;
     overflow: hidden;
 }
 
@@ -489,7 +506,7 @@
 
 .cadre_sec_4 {
     padding: 50px;
-    height: 400px;
+    height: 393px;
     overflow: hidden;
 }
 
@@ -643,7 +660,7 @@
 
 .copyri {
     background-color: #03A9F4;
-    font-size: 12px;
+    font-size: 10px;
     font-style: italic;
     font-family: "texte_para";
     text-align: center;

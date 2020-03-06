@@ -10,18 +10,21 @@ let main = document.querySelector('.main')
 let nav = document.querySelector('.nav')
 
 //dom section
+//1
+let cadreSec1 = document.querySelector('.cadre_sec_1')
+//2
 let lireSection2 = document.querySelector('.lien_suite_2')
 let cadreSec2 = document.querySelector('.cadre_sec_2')
 let lienLire2 = document.querySelector('.lien_lire_2')
-
+//3
 let lireSection3 = document.querySelector('.lien_suite_3')
 let cadreSec3 = document.querySelector('.cadre_sec_3')
 let lienLire3 = document.querySelector('.lien_lire_3')
-
+//4
 let lireSection4 = document.querySelector('.lien_suite_4')
 let cadreSec4 = document.querySelector('.cadre_sec_4')
 let lienLire4 = document.querySelector('.lien_lire_4')
-
+//5
 let lireSection5 = document.querySelector('.lien_suite_5')
 let cadreSec5 = document.querySelector('.cadre_sec_5')
 let lienLire5 = document.querySelector('.lien_lire_5')
@@ -69,7 +72,7 @@ lireSection2.onclick = () => {
 
         lienLire2.textContent = "Fermer"
 
-    }else {
+    } else {
 
         lienLire2.textContent = "Lire la suite"
 
@@ -86,7 +89,7 @@ lireSection3.onclick = () => {
 
         lienLire3.textContent = "Fermer"
 
-    }else {
+    } else {
 
         lienLire3.textContent = "Lire la suite"
 
@@ -103,7 +106,7 @@ lireSection4.onclick = () => {
 
         lienLire4.textContent = "Fermer"
 
-    }else {
+    } else {
 
         lienLire4.textContent = "Lire la suite"
 
@@ -120,7 +123,7 @@ lireSection5.onclick = () => {
 
         lienLire5.textContent = "Fermer"
 
-    }else {
+    } else {
 
         lienLire5.textContent = "Lire la suite"
 
@@ -129,3 +132,32 @@ lireSection5.onclick = () => {
 }
 
 
+window.addEventListener('scroll', () => {
+    let r = window.scrollY
+
+    if (r > 199 && r < 799) {
+
+        if (cadreSec1.classList[1] == undefined) {
+
+            cadreSec1.classList.toggle('cadre_sec_1_active')
+
+        }
+
+    } else if(r > 800 || r < 200) {
+
+        if (cadreSec1.classList[1] == 'cadre_sec_1_active') {
+
+            cadreSec1.classList.remove('cadre_sec_1_active')
+
+        }
+
+    }
+
+    if (r == 800) {
+
+        cadreSec2.classList.toggle('cadre_sec_2_active_scroll')
+
+    }
+
+    console.log(r)
+})
