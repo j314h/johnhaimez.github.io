@@ -71,7 +71,7 @@ lireSection2.onclick = () => {
 
     }else {
 
-        lienLire2.textContent = "Lire la suite..."
+        lienLire2.textContent = "Lire la suite"
 
     }
 
@@ -88,7 +88,7 @@ lireSection3.onclick = () => {
 
     }else {
 
-        lienLire3.textContent = "Lire la suite..."
+        lienLire3.textContent = "Lire la suite"
 
     }
 
@@ -105,7 +105,7 @@ lireSection4.onclick = () => {
 
     }else {
 
-        lienLire4.textContent = "Lire la suite..."
+        lienLire4.textContent = "Lire la suite"
 
     }
 
@@ -122,7 +122,7 @@ lireSection5.onclick = () => {
 
     }else {
 
-        lienLire5.textContent = "Lire la suite..."
+        lienLire5.textContent = "Lire la suite"
 
     }
 
