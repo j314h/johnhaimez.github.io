@@ -30,8 +30,8 @@ let lienLire5 = document.querySelector('.lien_lire_5')
 // click btn menu mobile
 btnMobile.onclick = () => {
 
-    header.classList.toggle('header_blur')
-    main.classList.toggle('main_blur')
+    header.classList.toggle('header_cacher')
+    main.classList.toggle('main_cacher')
     nav.classList.toggle('nav_active')
 
     barre1Mobile.classList.toggle('sp1btnm_active')
@@ -47,8 +47,8 @@ nav.onclick = () => {
 
     //si menu deja activer
     if (nav.classList[1] == "nav_active") {
-        header.classList.toggle('header_blur')
-        main.classList.toggle('main_blur')
+        header.classList.toggle('header_cacher')
+        main.classList.toggle('main_cacher')
         nav.classList.toggle('nav_active')
 
         barre1Mobile.classList.toggle('sp1btnm_active')
