@@ -82,8 +82,8 @@ html{
     transition-duration: 0.8s;
 }
 
+/*en js*/
 .header_cacher {
-    /*en js*/
     opacity: 0.1;
     transition-duration: 0.8s;
 }
@@ -104,8 +104,8 @@ html{
     transition-duration: 0.8s;
 }
 
+/*en js*/
 .btn_mobile_active {
-    /*en js*/
     right: 180px;
     top: 50px;
     transition-duration: 0.8s;
@@ -150,8 +150,8 @@ html{
     transition-duration: 0.8s;
 }
 
+/*en js*/
 .sp1btnm_active {
-    /*en js*/
     width: 100%;
     height: 5px;
     background-color: #000000;
@@ -165,8 +165,8 @@ html{
     transition-duration: 0.8s;
 }
 
+/*en js*/
 .sp2btnm_active {
-    /*en js*/
     width: 100%;
     height: 5px;
     background-color: #000000;
@@ -178,8 +178,8 @@ html{
 
 }
 
+/*en js*/
 .sp3btnm_active {
-    /*en js*/
     width: 100%;
     height: 5px;
     background-color: #000000;
@@ -205,8 +205,8 @@ html{
     transition-duration: 0.8s;
 }
 
+/*en js*/
 .nav_active {
-    /*en js*/
     width: 50%;
     position: fixed;
     top: 100px;
@@ -289,16 +289,16 @@ html{
     transition-duration: 0.8s;
 }
 
+/*en js*/
 .main_cacher {
-    /*en js*/
     opacity: 0.1;
     transition-duration: 0.8s;
 }
 
 /************************* sec 1*/
 
+/*pour ordinateur*/
 .img1 {
-    /*pour ordinateur*/
     display: none;
 }
 
@@ -310,13 +310,13 @@ html{
 .cadre_sec_1 {
     padding: 50px;
     opacity: 0;
-    transition-duration: 1.8s;
+    transition-duration: 1.6s;
 }
 
+/*js scroll*/
 .cadre_sec_1_active {
-    padding: 50px;
     opacity: 1;
-    transition-duration: 1.8s;
+    transition-duration: 1.6s;
 }
 
 .cadre_sec_1 h3 {
@@ -365,13 +365,13 @@ html{
 
 /************************* sec 2*/
 
+/*pour ordinateur*/
 .img2 {
-    /*pour ordinateur*/
     display: none;
 }
 
+/*pour ordinateur*/
 .photo_sec_2 {
-    /*pour ordinateur*/
     display: none;
 }
 
@@ -396,9 +396,8 @@ html{
     transition-duration: 0.5s;
 }
 
-
+/*en js*/
 .cadre_sec_2_active {
-    /*en js*/
     height: fit-content;
     overflow: visible;
 }
@@ -433,6 +432,7 @@ html{
     transition-duration: 1s;
 }
 
+/*js scroll*/
 .lien_suite_2_active {
     opacity: 1;
     transition-duration: 1s;
@@ -470,8 +470,8 @@ html{
     transition-duration: 0.5s;
 }
 
+/*en js*/
 .cadre_sec_3_active {
-    /*en js*/
     height: fit-content;
     overflow: visible;
 }
@@ -507,6 +507,7 @@ html{
     transition-duration: 1s;
 }
 
+/*js scroll*/
 .lien_suite_3_active {
     opacity: 1;
     transition-duration: 1s;
@@ -523,8 +524,8 @@ html{
 
 /************************* sec 4*/
 
+/*pour ordinateur*/
 .img4 {
-    /*pour ordinateur*/
     display: none;
 }
 
@@ -534,13 +535,21 @@ html{
 }
 
 .cadre_sec_4 {
+    opacity: 0;
+    transition-duration: 1.5s;
     padding: 50px;
     height: 393px;
     overflow: hidden;
 }
 
+/*js scroll*/
+.cadre_sec_4_active_scroll {
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+/*en js*/
 .cadre_sec_4_active {
-    /*en js*/
     height: fit-content;
     overflow: visible;
 }
@@ -576,6 +585,14 @@ html{
     text-align: right ;
     margin-top: 10px;
     padding-right: 70px;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+/*js scroll*/
+.lien_suite_4_active {
+    opacity: 1;
+    transition-duration: 1.5s;
 }
 
 .lien_lire_4 {
@@ -598,10 +615,18 @@ html{
     padding: 50px;
     height: 400px;
     overflow: hidden;
+    opacity: 0;
+    transition-duration: 1.5s;
 }
 
+/*js scroll*/
+.cadre_sec_5_active_scroll {
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+/*en js*/
 .cadre_sec_5_active {
-    /*en js*/
     height: fit-content;
     overflow: visible;
 }
@@ -627,6 +652,14 @@ html{
     text-align: right ;
     margin-top: 10px;
     padding-right: 70px;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+/*js scroll*/
+.lien_suite_5_active {
+    opacity: 1;
+    transition-duration: 1.5s;
 }
 
 .lien_lire_5 {
@@ -644,8 +677,8 @@ html{
 
 /************************* sec 6*/
 
+/*pour ordinateur*/
 .img6 {
-    /*pour ordinateur*/
     display: none;
 }
 

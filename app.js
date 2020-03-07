@@ -13,20 +13,20 @@ let nav = document.querySelector('.nav')
 //1
 let cadreSec1 = document.querySelector('.cadre_sec_1')
 //2
-let lireSection2 = document.querySelector('.lien_suite_2')
 let cadreSec2 = document.querySelector('.cadre_sec_2')
+let lireSection2 = document.querySelector('.lien_suite_2')
 let lienLire2 = document.querySelector('.lien_lire_2')
 //3
-let lireSection3 = document.querySelector('.lien_suite_3')
 let cadreSec3 = document.querySelector('.cadre_sec_3')
+let lireSection3 = document.querySelector('.lien_suite_3')
 let lienLire3 = document.querySelector('.lien_lire_3')
 //4
-let lireSection4 = document.querySelector('.lien_suite_4')
 let cadreSec4 = document.querySelector('.cadre_sec_4')
+let lireSection4 = document.querySelector('.lien_suite_4')
 let lienLire4 = document.querySelector('.lien_lire_4')
 //5
-let lireSection5 = document.querySelector('.lien_suite_5')
 let cadreSec5 = document.querySelector('.cadre_sec_5')
+let lireSection5 = document.querySelector('.lien_suite_5')
 let lienLire5 = document.querySelector('.lien_lire_5')
 
 
@@ -131,80 +131,108 @@ lireSection5.onclick = () => {
 
 }
 
-
+//fonction au scroll
 window.addEventListener('scroll', () => {
     let r = window.scrollY
 
-    //cadre 1 opaciter au scroll
-    if (r > 200 && r < 800) {
-
-        if (cadreSec1.classList[1] == undefined) {
-
-            cadreSec1.classList.toggle('cadre_sec_1_active')
-
+    //scroll section 1
+    if (r > 199 && r < 799) {
+        if (cadreSec1.classList[1] == undefined){
+            cadreSec1.classList.add('cadre_sec_1_active')
         }
-
-    } else if(r > 800 || r < 200) {
-
+    }else{
         if (cadreSec1.classList[1] == 'cadre_sec_1_active') {
-
             cadreSec1.classList.remove('cadre_sec_1_active')
-
         }
-
     }
 
-    //cadre 2 margin l au scroll
-    if (r > 800 && r < 1350) {
-
+    //scroll section 2
+    if (r > 799 && r < 1399) {
         if (cadreSec2.classList[1] == undefined) {
-
-            cadreSec2.classList.toggle('cadre_sec_2_active_scroll')
-            lireSection2.classList.toggle('lien_suite_2_active')
-
+            cadreSec2.classList.add('cadre_sec_2_active_scroll')
+            lireSection2.classList.add('lien_suite_2_active')
         }
-
-    }else if (r > 1350 || r < 800) {
-
-
-        if (cadreSec2.classList[1] == 'cadre_sec_2_active_scroll' && cadreSec2.classList[2] == undefined) {
-
+    }else{
+        if (cadreSec2.classList[1] == 'cadre_sec_2_active_scroll' && lienLire2.textContent == 'Lire la suite') {
             cadreSec2.classList.remove('cadre_sec_2_active_scroll')
             lireSection2.classList.remove('lien_suite_2_active')
-
         }
-
     }
 
-    //cadre 3 margin r au scroll
-    if ((r > 1350 && r < 1830) || (lireSection2.classList[1] == 'lien_suite_2_active' && r > 2630)) {
-
+    //scroll section 3
+    if (r > 1399 && r < 1899 && lienLire2.textContent == 'Lire la suite') {
         if (cadreSec3.classList[1] == undefined) {
-
-            cadreSec3.classList.toggle('cadre_sec_3_active_scroll')
-            lireSection3.classList.toggle('lien_suite_3_active')
-
+            cadreSec3.classList.add('cadre_sec_3_active_scroll')
+            lireSection3.classList.add('lien_suite_3_active')
         }
-
-    }else if (r > 1830 || r < 1350) {
-
-
-        if (cadreSec3.classList[1] == 'cadre_sec_3_active_scroll' && cadreSec3.classList[2] == undefined) {
-
+    }else if (r > 2590 && lienLire2.textContent == 'Fermer') {
+        if (cadreSec3.classList[1] == undefined) {
+            cadreSec3.classList.add('cadre_sec_3_active_scroll')
+            lireSection3.classList.add('lien_suite_3_active')
+        }
+        if (r > 3130 && cadreSec3.classList[1] == 'cadre_sec_3_active_scroll' && lienLire3.textContent == 'Lire la suite'){
             cadreSec3.classList.remove('cadre_sec_3_active_scroll')
             lireSection3.classList.remove('lien_suite_3_active')
-
         }
-
-    }
-
-    if (r > 3030) {
-        if (lireSection2.classList[1] == 'lien_suite_2_active' && lireSection3.textContent == 'Lire la suite') {
+    }else{
+        if (cadreSec3.classList[1] == 'cadre_sec_3_active_scroll' && lienLire3.textContent == 'Lire la suite') {
             cadreSec3.classList.remove('cadre_sec_3_active_scroll')
             lireSection3.classList.remove('lien_suite_3_active')
 
         }
     }
+
+    //scroll section 4
+    if (r > 1899 && r < 2330 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite'){
+        if (cadreSec4.classList[1] == undefined) {
+            cadreSec4.classList.add('cadre_sec_4_active_scroll')
+            lireSection4.classList.add('lien_suite_4_active')
+        }
+    }else if ( r > 2590 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer') {
+        if (cadreSec4.classList[1] == undefined) {
+            cadreSec4.classList.add('cadre_sec_4_active_scroll')
+            lireSection4.classList.add('lien_suite_4_active')
+        }
+        if (r > 3080 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll') {
+            cadreSec4.classList.remove('cadre_sec_4_active_scroll')
+            lireSection4.classList.remove('lien_suite_4_active')
+        }
+    }else if ( r > 3130 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite') {
+        if (cadreSec4.classList[1] == undefined) {
+            cadreSec4.classList.add('cadre_sec_4_active_scroll')
+            lireSection4.classList.add('lien_suite_4_active')
+        }
+        if (r > 3630 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll'){
+            cadreSec4.classList.remove('cadre_sec_4_active_scroll')
+            lireSection4.classList.remove('lien_suite_4_active')
+        }
+    }else if ( r > 3830 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer') {
+        if (cadreSec4.classList[1] == undefined) {
+            cadreSec4.classList.add('cadre_sec_4_active_scroll')
+            lireSection4.classList.add('lien_suite_4_active')
+        }
+        if (r > 4330 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll'){
+            cadreSec4.classList.remove('cadre_sec_4_active_scroll')
+            lireSection4.classList.remove('lien_suite_4_active')
+        }
+    }else{
+        if (cadreSec4.classList[1] == 'cadre_sec_4_active_scroll'){
+            cadreSec4.classList.remove('cadre_sec_4_active_scroll')
+            lireSection4.classList.remove('lien_suite_4_active')
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     console.log(r)
 })
