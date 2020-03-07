@@ -68,7 +68,7 @@ lireSection2.onclick = () => {
 
     cadreSec2.classList.toggle('cadre_sec_2_active')
 
-    if (cadreSec2.classList[1] == "cadre_sec_2_active") {
+    if (cadreSec2.classList[2] == "cadre_sec_2_active") {
 
         lienLire2.textContent = "Fermer"
 
@@ -135,7 +135,8 @@ lireSection5.onclick = () => {
 window.addEventListener('scroll', () => {
     let r = window.scrollY
 
-    if (r > 199 && r < 799) {
+    //cadre 1 opaciter au scroll
+    if (r > 200 && r < 800) {
 
         if (cadreSec1.classList[1] == undefined) {
 
@@ -153,9 +154,47 @@ window.addEventListener('scroll', () => {
 
     }
 
-    if (r == 800) {
+    //cadre 2 margin l au scroll
+    if (r > 800 && r < 1350) {
 
-        cadreSec2.classList.toggle('cadre_sec_2_active_scroll')
+        if (cadreSec2.classList[1] == undefined) {
+
+            cadreSec2.classList.toggle('cadre_sec_2_active_scroll')
+            lireSection2.classList.toggle('lien_suite_2_active')
+
+        }
+
+    }else if (r > 1350 || r < 800) {
+
+
+        if (cadreSec2.classList[1] == 'cadre_sec_2_active_scroll' && cadreSec2.classList[2] == undefined) {
+
+            cadreSec2.classList.remove('cadre_sec_2_active_scroll')
+            lireSection2.classList.remove('lien_suite_2_active')
+
+        }
+
+    }
+
+    //cadre 3 margin r au scroll
+    if (r > 1350 && r < 1830) {
+
+        if (cadreSec3.classList[1] == undefined) {
+
+            cadreSec3.classList.toggle('cadre_sec_3_active_scroll')
+            lireSection3.classList.toggle('lien_suite_3_active')
+
+        }
+
+    }else if (r > 1830 || r < 1350) {
+
+
+        if (cadreSec3.classList[1] == 'cadre_sec_3_active_scroll' && cadreSec3.classList[2] == undefined) {
+
+            cadreSec3.classList.remove('cadre_sec_3_active_scroll')
+            lireSection3.classList.remove('lien_suite_3_active')
+
+        }
 
     }
 
