@@ -193,7 +193,7 @@ window.addEventListener('scroll', () => {
             cadreSec4.classList.add('cadre_sec_4_active_scroll')
             lireSection4.classList.add('lien_suite_4_active')
         }
-        if (r > 3080 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll') {
+        if (r > 3080 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
             cadreSec4.classList.remove('cadre_sec_4_active_scroll')
             lireSection4.classList.remove('lien_suite_4_active')
         }
@@ -202,7 +202,7 @@ window.addEventListener('scroll', () => {
             cadreSec4.classList.add('cadre_sec_4_active_scroll')
             lireSection4.classList.add('lien_suite_4_active')
         }
-        if (r > 3630 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll'){
+        if (r > 3630 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite'){
             cadreSec4.classList.remove('cadre_sec_4_active_scroll')
             lireSection4.classList.remove('lien_suite_4_active')
         }
@@ -211,28 +211,72 @@ window.addEventListener('scroll', () => {
             cadreSec4.classList.add('cadre_sec_4_active_scroll')
             lireSection4.classList.add('lien_suite_4_active')
         }
-        if (r > 4330 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll'){
+        if (r > 4330 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite'){
             cadreSec4.classList.remove('cadre_sec_4_active_scroll')
             lireSection4.classList.remove('lien_suite_4_active')
         }
     }else{
-        if (cadreSec4.classList[1] == 'cadre_sec_4_active_scroll'){
+        if (cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite'){
             cadreSec4.classList.remove('cadre_sec_4_active_scroll')
             lireSection4.classList.remove('lien_suite_4_active')
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    //scroll section 5
+    if (r > 2330 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite' &&
+    lienLire4.textContent == 'Lire la suite' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 3630 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite' &&
+    lienLire4.textContent == 'Lire la suite' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 3130 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer' &&
+    lienLire4.textContent == 'Lire la suite' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 5265 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite' &&
+    lienLire4.textContent == 'Fermer' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 4340 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer' &&
+    lienLire4.textContent == 'Lire la suite' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 5980 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer' &&
+    lienLire4.textContent == 'Fermer' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 6540 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite' &&
+    lienLire4.textContent == 'Fermer' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else if (r > 7250 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer' &&
+    lienLire4.textContent == 'Fermer' ){
+        if (cadreSec5.classList[1] == undefined) {
+            cadreSec5.classList.add('cadre_sec_5_active_scroll')
+            lireSection5.classList.add('lien_suite_5_active')
+        }
+    }else{
+        if (cadreSec5.classList[1] == 'cadre_sec_5_active_scroll' && lienLire5.textContent == 'Lire la suite') {
+            cadreSec5.classList.remove('cadre_sec_5_active_scroll')
+            lireSection5.classList.remove('lien_suite_5_active')
+        }
+    }
 
     console.log(r)
 })

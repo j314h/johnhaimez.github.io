@@ -305,6 +305,7 @@ html{
 .sec_1 {
     background-color: #03A9F4;
     padding: 20px 0px 20px 0px;
+    overflow:hidden;
 }
 
 .cadre_sec_1 {
@@ -378,6 +379,7 @@ html{
 .sec_2 {
     background-color: #607D8B;
     padding: 20px 0px 20px 0px;
+    overflow:hidden;
 }
 
 .cadre_sec_2 {
@@ -452,6 +454,7 @@ html{
 .sec_3 {
     background-color: #607D8B;
     padding: 20px 0px 30px 0px;
+    overflow:hidden;
 }
 
 .cadre_sec_3 {
@@ -532,6 +535,7 @@ html{
 .sec_4 {
     background-color: #c7ecee;
     padding: 20px 0px 20px 0px;
+    overflow:hidden;
 }
 
 .cadre_sec_4 {
@@ -609,6 +613,7 @@ html{
 .sec_5 {
     background-color: #c7ecee;
     padding: 20px 0px 20px 0px;
+    overflow:hidden;
 }
 
 .cadre_sec_5 {
@@ -685,6 +690,7 @@ html{
 .sec_6 {
     background-color: #03A9F4;
     padding: 20px 0px 20px 0px;
+    overflow:hidden;
 }
 
 .cadre_sec_6 {
