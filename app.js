@@ -177,7 +177,7 @@ window.addEventListener('scroll', () => {
     }
 
     //cadre 3 margin r au scroll
-    if (r > 1350 && r < 1830) {
+    if ((r > 1350 && r < 1830) || (lireSection2.classList[1] == 'lien_suite_2_active' && r > 2630)) {
 
         if (cadreSec3.classList[1] == undefined) {
 
