@@ -85,7 +85,7 @@ lireSection3.onclick = () => {
 
     cadreSec3.classList.toggle('cadre_sec_3_active')
 
-    if (cadreSec3.classList[1] == "cadre_sec_3_active") {
+    if (cadreSec3.classList[2] == "cadre_sec_3_active") {
 
         lienLire3.textContent = "Fermer"
 
@@ -102,7 +102,7 @@ lireSection4.onclick = () => {
 
     cadreSec4.classList.toggle('cadre_sec_4_active')
 
-    if (cadreSec4.classList[1] == "cadre_sec_4_active") {
+    if (cadreSec4.classList[2] == "cadre_sec_4_active") {
 
         lienLire4.textContent = "Fermer"
 
@@ -119,7 +119,7 @@ lireSection5.onclick = () => {
 
     cadreSec5.classList.toggle('cadre_sec_5_active')
 
-    if (cadreSec5.classList[1] == "cadre_sec_5_active") {
+    if (cadreSec5.classList[2] == "cadre_sec_5_active") {
 
         lienLire5.textContent = "Fermer"
 
@@ -196,6 +196,14 @@ window.addEventListener('scroll', () => {
 
         }
 
+    }
+
+    if (r > 3030) {
+        if (lireSection2.classList[1] == 'lien_suite_2_active' && lireSection3.textContent == 'Lire la suite') {
+            cadreSec3.classList.remove('cadre_sec_3_active_scroll')
+            lireSection3.classList.remove('lien_suite_3_active')
+
+        }
     }
 
     console.log(r)
