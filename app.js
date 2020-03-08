@@ -10,6 +10,15 @@ let main = document.querySelector('.main')
 let nav = document.querySelector('.nav')
 
 //dom section
+//variable des section du dom
+let sec1 = document.querySelector('.sec_1')
+let sec2 = document.querySelector('.sec_2')
+let sec3 = document.querySelector('.sec_3')
+let sec4 = document.querySelector('.sec_4')
+let sec5 = document.querySelector('.sec_5')
+let sec6 = document.querySelector('.sec_6')
+
+//dom section
 //1
 let cadreSec1 = document.querySelector('.cadre_sec_1')
 //2
@@ -86,6 +95,67 @@ window.addEventListener('scroll', () => {
 
 })
 
+//en mode ordi au chargement de la page
+if(window.innerWidth > 900) {
+    window.onload = () => {
+        sec1.classList.add('affiche_section')
+    }
+}
+
+
+li1.onclick = () => {
+    sec1.classList.add('affiche_section')
+    sec2.classList.remove('affiche_section')
+    sec3.classList.remove('affiche_section')
+    sec4.classList.remove('affiche_section')
+    sec5.classList.remove('affiche_section')
+    sec6.classList.remove('affiche_section')
+}
+
+li2.onclick = () => {
+    sec1.classList.remove('affiche_section')
+    sec2.classList.add('affiche_section')
+    sec3.classList.remove('affiche_section')
+    sec4.classList.remove('affiche_section')
+    sec5.classList.remove('affiche_section')
+    sec6.classList.remove('affiche_section')
+}
+
+li3.onclick = () => {
+    sec1.classList.remove('affiche_section')
+    sec2.classList.remove('affiche_section')
+    sec3.classList.add('affiche_section')
+    sec4.classList.remove('affiche_section')
+    sec5.classList.remove('affiche_section')
+    sec6.classList.remove('affiche_section')
+}
+
+li4.onclick = () => {
+    sec1.classList.remove('affiche_section')
+    sec2.classList.remove('affiche_section')
+    sec3.classList.remove('affiche_section')
+    sec4.classList.add('affiche_section')
+    sec5.classList.remove('affiche_section')
+    sec6.classList.remove('affiche_section')
+}
+
+li5.onclick = () => {
+    sec1.classList.remove('affiche_section')
+    sec2.classList.remove('affiche_section')
+    sec3.classList.remove('affiche_section')
+    sec4.classList.remove('affiche_section')
+    sec5.classList.add('affiche_section')
+    sec6.classList.remove('affiche_section')
+}
+
+li6.onclick = () => {
+    sec1.classList.remove('affiche_section')
+    sec2.classList.remove('affiche_section')
+    sec3.classList.remove('affiche_section')
+    sec4.classList.remove('affiche_section')
+    sec5.classList.remove('affiche_section')
+    sec6.classList.add('affiche_section')
+}
 
 
 

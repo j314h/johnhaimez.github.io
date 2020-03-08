@@ -845,49 +845,258 @@
     /***************************/
     /****************************************** Main *****************************************************/
 
+    .affiche_section{
+        flex: none;
+    }
+
     .main{
         position: relative;
+        width: 100%;
+        height: 1500px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
     }
 
     /************************* sec 1*/
 
     .img1 {
         display: block;
-        width: 320px;
-        height: 240px;
-        float: left;
-        margin-top: 20px;
-        margin-left: 50px;
-        padding-right: 50px;
+        width: 100%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 0px 10px 0px;
     }
 
     .sec_1 {
-        background-color: #03A9F4;
         padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.2s;
     }
 
     .cadre_sec_1 {
+        text-align: center;
         width: 1024px;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 20px;
         opacity: 1;
     }
 
     .cadre_sec_1 h3 {
-        font-size: 35px;
+        font-size: 40px;
+    }
+
+    .ti_para{
+        font-size: 25px;
+        font-weight: bold;
+        color: #000000;
+        padding-top: 50px;
+    }
+
+    .ti_para a{
+        font-weight: bold;
+        font-size: 25px;
+        color: #000000;
+    }
+
+    .para{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .para a{
+        font-size: 20px;
+        padding-top: 10px;
     }
 
     /***************************/
 
     /************************* sec 2*/
 
+    .photo_sec_2{
+        display: block;
+        float: right;
+        width: 300px;
+        height: 700px;
+        padding-left: 30px;
+    }
+
+    .img2{
+        display: block;
+        width: 270px;
+        height: 170px;
+    }
+
     .sec_2 {
-        position: absolute;
-        top: 0;
-        left: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.2s;
+    }
+
+    .cadre_sec_2 {
+        text-align: center;
+        width: 1024px;
+        height: 1000px;
+        margin: 0;
+    }
+
+    .cadre_sec_2 h3 {
+        font-size: 40px;
+    }
+
+    .cadre_sec_2 p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .p_question {
+        font-size: 22px;
+    }
+
+    .lien_suite_2{
+        display: none;
     }
 
     /***************************/
+
+    /************************* sec 3*/
+
+    .img3{
+        float: left;
+        padding: 20px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .sec_3 {
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.2s;
+    }
+
+    .cadre_sec_3 {
+        text-align: center;
+        width: 1024px;
+        height: 650px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .cadre_sec_3 h3 {
+        font-size: 40px;
+    }
+
+    .cadre_sec_3 p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .lien_suite_3 {
+        display: none;
+    }
+
+    /***************************/
+
+    /************************* sec 4*/
+
+    .sec_4 {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.2s;
+    }
+
+    .cadre_sec_4 {
+        text-align: center;
+        width: 1024px;
+        height: 1500px;
+        opacity: 1;
+        padding: 20px;
+    }
+
+    .cadre_sec_4 h3 {
+        font-size: 40px;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .cadre_sec_4 p {
+        font-size: 20px;
+    }
+
+    .lien_suite_4 {
+        display: none;
+    }
+
+    /***************************/
+
+    /************************* sec 5*/
+
+    .sec_5 {
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.2s;
+    }
+
+    .cadre_sec_5 {
+        text-align: center;
+        width: 1024px;
+        height: 600px;
+        opacity: 1;
+        padding: 20px;
+    }
+
+    .cadre_sec_5 h3 {
+        font-family: "texte_para_important";
+        color: #000000;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .cadre_sec_5 p {
+        font-family: "texte_para";
+        color: #000000;
+        font-size: 18px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .lien_suite_5 {
+        display: none;
+    }
+
+    /***************************/
+
+    /************************* sec 6*/
+
+    .sec_6 {
+
+    }
+
+    /***************************/
+
+    footer{
+
+
+    }
 
 
 
