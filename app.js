@@ -102,7 +102,7 @@ if(window.innerWidth > 900) {
     }
 }
 
-
+//fonction pour clique sur bouton menu
 li1.onclick = () => {
     sec1.classList.add('affiche_section')
     sec2.classList.remove('affiche_section')
@@ -156,24 +156,6 @@ li6.onclick = () => {
     sec5.classList.remove('affiche_section')
     sec6.classList.add('affiche_section')
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //code pour mobile et tablette
 if (window.innerWidth < 900) {
