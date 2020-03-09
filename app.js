@@ -319,7 +319,7 @@ if (window.innerWidth < 900) {
         }
 console.log(r)
         //scroll section 2
-        if (r > 799 && r < 1230) {
+        if (r > 799 && r < 1250) {
             if (cadreSec2.classList[1] == undefined) {
                 cadreSec2.classList.add('cadre_sec_2_active_scroll')
                 lireSection2.classList.add('lien_suite_2_active')
@@ -337,12 +337,12 @@ console.log(r)
                 cadreSec3.classList.add('cadre_sec_3_active_scroll')
                 lireSection3.classList.add('lien_suite_3_active')
             }
-        } else if (r > 2590 && lienLire2.textContent == 'Fermer') {
+        } else if (r > 2800 && lienLire2.textContent == 'Fermer') {
             if (cadreSec3.classList[1] == undefined) {
                 cadreSec3.classList.add('cadre_sec_3_active_scroll')
                 lireSection3.classList.add('lien_suite_3_active')
             }
-            if (r > 3130 && cadreSec3.classList[1] == 'cadre_sec_3_active_scroll' && lienLire3.textContent == 'Lire la suite') {
+            if (r > 3300 && cadreSec3.classList[1] == 'cadre_sec_3_active_scroll' && lienLire3.textContent == 'Lire la suite') {
                 cadreSec3.classList.remove('cadre_sec_3_active_scroll')
                 lireSection3.classList.remove('lien_suite_3_active')
             }
@@ -360,30 +360,30 @@ console.log(r)
                 cadreSec4.classList.add('cadre_sec_4_active_scroll')
                 lireSection4.classList.add('lien_suite_4_active')
             }
-        } else if (r > 2590 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer') {
+        } else if (r > 3400 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer') {
             if (cadreSec4.classList[1] == undefined) {
                 cadreSec4.classList.add('cadre_sec_4_active_scroll')
                 lireSection4.classList.add('lien_suite_4_active')
             }
-            if (r > 3080 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
+            if (r > 3950 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
                 cadreSec4.classList.remove('cadre_sec_4_active_scroll')
                 lireSection4.classList.remove('lien_suite_4_active')
             }
-        } else if (r > 3130 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite') {
+        } else if (r > 3300 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite') {
             if (cadreSec4.classList[1] == undefined) {
                 cadreSec4.classList.add('cadre_sec_4_active_scroll')
                 lireSection4.classList.add('lien_suite_4_active')
             }
-            if (r > 3630 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
+            if (r > 3800 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
                 cadreSec4.classList.remove('cadre_sec_4_active_scroll')
                 lireSection4.classList.remove('lien_suite_4_active')
             }
-        } else if (r > 3830 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer') {
+        } else if (r > 4930 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer') {
             if (cadreSec4.classList[1] == undefined) {
                 cadreSec4.classList.add('cadre_sec_4_active_scroll')
                 lireSection4.classList.add('lien_suite_4_active')
             }
-            if (r > 4330 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
+            if (r > 5500 && cadreSec4.classList[1] == 'cadre_sec_4_active_scroll' && lienLire4.textContent == 'Lire la suite') {
                 cadreSec4.classList.remove('cadre_sec_4_active_scroll')
                 lireSection4.classList.remove('lien_suite_4_active')
             }
@@ -401,25 +401,25 @@ console.log(r)
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
                 lireSection5.classList.add('lien_suite_5_active')
             }
-        } else if (r > 3630 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite' &&
+        } else if (r > 3800 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Lire la suite' &&
             lienLire4.textContent == 'Lire la suite') {
             if (cadreSec5.classList[1] == undefined) {
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
                 lireSection5.classList.add('lien_suite_5_active')
             }
-        } else if (r > 3130 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer' &&
+        } else if (r > 3930 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Fermer' &&
             lienLire4.textContent == 'Lire la suite') {
             if (cadreSec5.classList[1] == undefined) {
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
                 lireSection5.classList.add('lien_suite_5_active')
             }
-        } else if (r > 5265 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite' &&
+        } else if (r > 4200 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite' &&
             lienLire4.textContent == 'Fermer') {
             if (cadreSec5.classList[1] == undefined) {
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
                 lireSection5.classList.add('lien_suite_5_active')
             }
-        } else if (r > 4340 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer' &&
+        } else if (r > 5500 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer' &&
             lienLire4.textContent == 'Lire la suite') {
             if (cadreSec5.classList[1] == undefined) {
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
@@ -437,7 +437,7 @@ console.log(r)
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
                 lireSection5.classList.add('lien_suite_5_active')
             }
-        } else if (r > 7250 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer' &&
+        } else if (r > 7530 && lienLire2.textContent == 'Fermer' && lienLire3.textContent == 'Fermer' &&
             lienLire4.textContent == 'Fermer') {
             if (cadreSec5.classList[1] == undefined) {
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
