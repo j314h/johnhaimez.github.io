@@ -317,9 +317,9 @@ if (window.innerWidth < 900) {
                 cadreSec1.classList.remove('cadre_sec_1_active')
             }
         }
-
+console.log(r)
         //scroll section 2
-        if (r > 799 && r < 1399) {
+        if (r > 799 && r < 1230) {
             if (cadreSec2.classList[1] == undefined) {
                 cadreSec2.classList.add('cadre_sec_2_active_scroll')
                 lireSection2.classList.add('lien_suite_2_active')
@@ -332,7 +332,7 @@ if (window.innerWidth < 900) {
         }
 
         //scroll section 3
-        if (r > 1399 && r < 1899 && lienLire2.textContent == 'Lire la suite') {
+        if (r > 1230 && r < 1730 && lienLire2.textContent == 'Lire la suite') {
             if (cadreSec3.classList[1] == undefined) {
                 cadreSec3.classList.add('cadre_sec_3_active_scroll')
                 lireSection3.classList.add('lien_suite_3_active')
@@ -355,7 +355,7 @@ if (window.innerWidth < 900) {
         }
 
         //scroll section 4
-        if (r > 1899 && r < 2330 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite') {
+        if (r > 1730 && r < 2230 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite') {
             if (cadreSec4.classList[1] == undefined) {
                 cadreSec4.classList.add('cadre_sec_4_active_scroll')
                 lireSection4.classList.add('lien_suite_4_active')
@@ -395,7 +395,7 @@ if (window.innerWidth < 900) {
         }
 
         //scroll section 5
-        if (r > 2330 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite' &&
+        if (r > 2230 && lienLire2.textContent == 'Lire la suite' && lienLire3.textContent == 'Lire la suite' &&
             lienLire4.textContent == 'Lire la suite') {
             if (cadreSec5.classList[1] == undefined) {
                 cadreSec5.classList.add('cadre_sec_5_active_scroll')
