@@ -99,11 +99,19 @@ window.addEventListener('scroll', () => {
 if(window.innerWidth > 900) {
     window.onload = () => {
         sec1.classList.add('affiche_section')
+        li1.classList.add('active')
     }
 }
 
 //fonction pour clique sur bouton menu
 li1.onclick = () => {
+    li1.classList.add('active')
+    li2.classList.remove('active')
+    li3.classList.remove('active')
+    li4.classList.remove('active')
+    li5.classList.remove('active')
+    li6.classList.remove('active')
+
     sec1.classList.add('affiche_section')
     sec2.classList.remove('affiche_section')
     sec3.classList.remove('affiche_section')
@@ -113,6 +121,13 @@ li1.onclick = () => {
 }
 
 li2.onclick = () => {
+    li1.classList.remove('active')
+    li2.classList.add('active')
+    li3.classList.remove('active')
+    li4.classList.remove('active')
+    li5.classList.remove('active')
+    li6.classList.remove('active')
+
     sec1.classList.remove('affiche_section')
     sec2.classList.add('affiche_section')
     sec3.classList.remove('affiche_section')
@@ -122,6 +137,13 @@ li2.onclick = () => {
 }
 
 li3.onclick = () => {
+    li1.classList.remove('active')
+    li2.classList.remove('active')
+    li3.classList.add('active')
+    li4.classList.remove('active')
+    li5.classList.remove('active')
+    li6.classList.remove('active')
+
     sec1.classList.remove('affiche_section')
     sec2.classList.remove('affiche_section')
     sec3.classList.add('affiche_section')
@@ -131,6 +153,13 @@ li3.onclick = () => {
 }
 
 li4.onclick = () => {
+    li1.classList.remove('active')
+    li2.classList.remove('active')
+    li3.classList.remove('active')
+    li4.classList.add('active')
+    li5.classList.remove('active')
+    li6.classList.remove('active')
+
     sec1.classList.remove('affiche_section')
     sec2.classList.remove('affiche_section')
     sec3.classList.remove('affiche_section')
@@ -140,6 +169,13 @@ li4.onclick = () => {
 }
 
 li5.onclick = () => {
+    li1.classList.remove('active')
+    li2.classList.remove('active')
+    li3.classList.remove('active')
+    li4.classList.remove('active')
+    li5.classList.add('active')
+    li6.classList.remove('active')
+
     sec1.classList.remove('affiche_section')
     sec2.classList.remove('affiche_section')
     sec3.classList.remove('affiche_section')
@@ -149,6 +185,13 @@ li5.onclick = () => {
 }
 
 li6.onclick = () => {
+    li1.classList.remove('active')
+    li2.classList.remove('active')
+    li3.classList.remove('active')
+    li4.classList.remove('active')
+    li5.classList.remove('active')
+    li6.classList.add('active')
+
     sec1.classList.remove('affiche_section')
     sec2.classList.remove('affiche_section')
     sec3.classList.remove('affiche_section')

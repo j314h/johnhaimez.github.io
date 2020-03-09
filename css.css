@@ -325,7 +325,7 @@
     color: #ffffff;
     text-align: center;
     font-size: 28px;
-    padding: 15px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .ti_para {
@@ -354,7 +354,7 @@
     font-size: 18px;
 }
 
-.info_date_formation {
+.info_formation {
     font-family: "texte_para";
     font-style: italic;
     font-size: 11px;
@@ -417,6 +417,12 @@
     color: #000000;
     font-size: 18px;
     padding: 15px 0px 0px 0px;
+}
+
+.cadre_sec_2 p a {
+    font-family: "texte_para";
+    color: #00e0fd;
+    text-decoration: none;
 }
 
 .p_question {
@@ -499,9 +505,8 @@
 }
 
 .cadre_sec_3 p a {
-    font-family: "texte_para_important";
+    font-family: "texte_para";
     color: #00e0fd;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -563,13 +568,15 @@
 }
 
 .cadre_sec_4 h3 {
+    font-family: "texte_para_important";
     text-align: center;
     font-size: 25px;
     padding: 15px 0px 15px 0px;
 }
 
 .cadre_sec_4 h3 a {
-    font-family: "texte_para_important";
+    font-family: "texte_para";
+    font-style: italic;
     color: #00e0fd;
     text-decoration: none;
 }
@@ -582,9 +589,9 @@
 }
 
 .cadre_sec_4 p a {
-    font-family: "texte_para_important";
+    font-family: "texte_para";
     color: #00e0fd;
-    font-weight: bold;
+    font-style: italic;
     text-decoration: none;
 }
 
@@ -723,7 +730,7 @@
 }
 
 .cadre_sec_6 p a {
-    font-family: "texte_para_important";
+    font-family: "texte_para";
     font-style: italic;
     color: #00e0fd;
     text-decoration: none;
@@ -735,7 +742,7 @@
 /******************************************** footer *******************************************/
 
 .copyri {
-    background-color: #03A9F4;
+    background-color: #c7ecee;
     font-size: 10px;
     font-style: italic;
     font-family: "texte_para";
@@ -751,7 +758,13 @@
 /******************************************** css ordinateur à partir de 900px *******************************************/
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 930px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
     /******************************************** header *******************************************/
 
@@ -838,6 +851,10 @@
         padding: 20px 30px;
     }
 
+    .active {
+        background-color: #607D8B;
+    }
+
     .menu_ul li a {
         color: #000000;
         transition-duration: 0.5s;
@@ -860,31 +877,29 @@
     .main{
         position: relative;
         width: 100%;
-        height: 1500px;
+        height: 1300px;
         overflow: hidden;
         display: flex;
         flex-direction: row;
-        justify-content: stretch;
+        justify-content: start;
+        flex-grow: 1;
     }
 
     /************************* sec 1*/
 
     .img1 {
         display: block;
-        width: 100%;
+        width: 800px;
         height: 400px;
         margin-left: auto;
         margin-right: auto;
-        padding: 30px 0px 10px 0px;
+        padding: 40px 0px 10px 0px;
     }
 
     .sec_1 {
+        background-color: #607D8B;
         padding: 0;
-        height: 100%;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         transition-duration: 0.2s;
     }
 
@@ -893,32 +908,31 @@
         width: 1024px;
         padding: 20px;
         opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .cadre_sec_1 h3 {
+        padding: 40px 0px 20px 0px;
+        color: #000000;
         font-size: 40px;
     }
 
     .ti_para{
-        font-size: 25px;
+        font-size: 30px;
         font-weight: bold;
-        color: #000000;
+        color: #ffffff;
         padding-top: 50px;
     }
 
-    .ti_para a{
-        font-weight: bold;
-        font-size: 25px;
-        color: #000000;
-    }
-
     .para{
-        font-size: 20px;
+        font-size: 25px;
         padding-top: 10px;
     }
 
     .para a{
-        font-size: 20px;
+        font-style: italic;
+        font-size: 25px;
         padding-top: 10px;
     }
 
@@ -932,6 +946,7 @@
         width: 300px;
         height: 700px;
         padding-left: 30px;
+        margin-top: 20px;
     }
 
     .img2{
@@ -941,33 +956,50 @@
     }
 
     .sec_2 {
+        background-color: #607D8B;
         padding: 0;
-        height: 100%;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         transition-duration: 0.2s;
     }
 
     .cadre_sec_2 {
-        text-align: center;
         width: 1024px;
-        height: 1000px;
+        height: 100%;
+        padding: 20px;
         margin: 0;
     }
 
     .cadre_sec_2 h3 {
+        padding: 40px 0px 45px 0px;
         font-size: 40px;
     }
 
     .cadre_sec_2 p {
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        text-justify: inter-word;
         font-size: 20px;
-        text-align: left;
     }
 
-    .p_question {
-        font-size: 22px;
+    .cadre_sec_2 p span{
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    .cadre_sec_2 p a{
+        font-style: italic;
+    }
+
+
+    .cadre_sec_2 .p_question {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 25px;
+        font-style: italic;
     }
 
     .lien_suite_2{
@@ -987,30 +1019,39 @@
     }
 
     .sec_3 {
+        background-color: #607D8B;
         padding: 0;
-        height: 100%;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         transition-duration: 0.2s;
     }
 
     .cadre_sec_3 {
         text-align: center;
         width: 1024px;
-        height: 650px;
+        height: 100%;
         margin: 0;
         padding: 20px;
     }
 
     .cadre_sec_3 h3 {
+        color: #000000;
         font-size: 40px;
+        padding: 40px 0px 45px 0px;
     }
 
     .cadre_sec_3 p {
-        text-align: left;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        text-justify: inter-word;
         font-size: 20px;
+    }
+
+    .cadre_sec_3 p a{
+        font-style: italic;
     }
 
     .lien_suite_3 {
@@ -1022,28 +1063,33 @@
     /************************* sec 4*/
 
     .sec_4 {
+        background-color: #607D8B;
         padding: 0;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         transition-duration: 0.2s;
     }
 
     .cadre_sec_4 {
         text-align: center;
         width: 1024px;
-        height: 1500px;
+        height: 100%;
         opacity: 1;
         padding: 20px;
     }
 
     .cadre_sec_4 h3 {
         font-size: 40px;
-        padding: 15px 0px 15px 0px;
+        padding: 40px 0px 45px 0px;
     }
 
     .cadre_sec_4 p {
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        text-justify: inter-word;
         font-size: 20px;
     }
 
@@ -1057,34 +1103,51 @@
 
     .img5{
         display: block;
-        padding: 30px 0px 30px 0px;
+        padding: 40px 0px 30px 0px;
         width: 100%;
         height: 500px;
     }
 
     .sec_5 {
+        background-color: #607D8B;
         padding: 0;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         transition-duration: 0.2s;
     }
 
     .cadre_sec_5 {
         text-align: center;
         width: 1024px;
-        height: 1000px;
+        height: 100%;
         opacity: 1;
         padding: 20px;
     }
 
     .cadre_sec_5 h3 {
+        padding: 40px 0px 20px 0px;
         font-size: 40px;
     }
 
     .cadre_sec_5 p {
+        color: #ffffff;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        text-justify: inter-word;
         font-size: 20px;
+    }
+
+    .cadre_sec_5 .p_question5 {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 25px;
+        font-style: italic;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .lien_suite_5 {
@@ -1097,19 +1160,21 @@
 
     .img6 {
         display: block;
-        width: 650px;
-        height: 450px;
+        width: 550px;
+        height: 380px;
         margin-left: auto;
         margin-right: auto;
         padding: 30px;
+        float: right;
     }
 
     .sec_6 {
+        background-color: #607D8B;
         padding: 0;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         transition-duration: 0.2s;
     }
 
@@ -1120,11 +1185,18 @@
     }
 
     .cadre_sec_6 h3 {
+        color: #000000;
         font-size: 40px;
+        padding: 40px 0px 45px 0px;
     }
 
     .cadre_sec_6 p {
-        font-size: 25px;
+        color: #000000;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 20px;
     }
 
 

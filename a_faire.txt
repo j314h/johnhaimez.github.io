@@ -1,14 +1,14 @@
-texte aligner droite et a gauche
-toute page 
+texte aligner droite et a gauche => ok
+toute page => ok
 
-interligne texte
-toute page 
+interligne texte => ok
+toute page => ok
 
-mise en page oclock
+mise en page oclock => ok
 
-solution image header ordi
+solution image header ordi => ok
 
-alligner section vers le haut
+alligner section vers le haut => ok
 
-> 900
+> 900 => ok
 
