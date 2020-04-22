@@ -29,5 +29,6 @@ Toutes les images contenu sont libre de droits et gratuites.
 > Il n'y a rien de spécial dans ce projet, il m'a servis de support pour  
 afficher mes idées ainsi que mes motivations pour mon projet de reconversion  
 professionnelle. (*Projet de reconversion concluant car j'ai eu le financement*)  
+Si je devais refaire ce projet j'utiliserais react se serais beaucoup plus  structuré.(mais à ce moment là je ne connaissais pas react)
   
 ***Plus de suivis et de mise à jour sur ce projet.***
