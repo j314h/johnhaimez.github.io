@@ -1,4 +1,4 @@
-*****Plus de suivis et de mise à jour sur ce projet.***  
+## _\*\*Pas de suivis et de mise à jour sur ce projet_    
 
 # Site Projet Personnel
 *Voir le site [ici](https://j314h.github.io/johnhaimez.github.io/)*  
