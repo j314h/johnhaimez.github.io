@@ -1,10 +1,10 @@
 # _\*\*No more update_
 
-- Site Projet Personnel
+- Site Project Personal
 
 * Date
   > Le 7 mars 2020
-* Le projet
+* This project
 
         I created this site to obtain funding for my training
         to become a web developer. There is no specific structure
